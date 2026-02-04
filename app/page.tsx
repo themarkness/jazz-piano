@@ -113,7 +113,7 @@ export default function Home() {
     const required = new Set(selectedPracticeChord.notes);
     const played = new Set(playedNotes);
 
-    const missing = [...required].filter((note) => !played.has(note));
+    const missing = Array.from(required).filter((note) => !played.has(note));
     const extra = playedNotes.filter((note) => !required.has(note));
 
     if (playedNotes.length === 0) {
