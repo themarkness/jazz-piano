@@ -2,22 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.ceremony-button {
-  padding: 1rem 2rem;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-  border: 2px solid #e5e7eb;
-  transition: all 0.2s;
+:root {
+  color-scheme: dark;
 }
 
-.ceremony-button.selected {
-  background-color: #3b82f6;
-  color: white;
-  border-color: #2563eb;
+body {
+  @apply bg-slate-950 text-white;
 }
 
-.button-group {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0;
+* {
+  @apply antialiased;
 }
