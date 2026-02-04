@@ -1,6 +1,6 @@
-# Jazz Keys Lab
+# Jazz Piano
 
-Jazz Keys Lab is a mobile-friendly practice studio that helps you learn jazz
+Jazz Piano is a mobile-friendly practice studio that helps you learn jazz
 chords on piano. Explore chord fingerings, hear lush voicings, practice common
 progressions, and check your note choices with simple chord recognition
 feedback.
@@ -24,4 +24,3 @@ feedback.
    npm run dev
    ```
 3. Open `http://localhost:3000` in your browser.
-
